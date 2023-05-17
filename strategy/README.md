@@ -1,0 +1,4 @@
+Strategy
+
+O padrão de projeto "Strategy" é um padrão comportamental que permite definir uma família de algoritmos, encapsulá-los em classes separadas e torná-los intercambiáveis. Ele permite que o algoritmo seja selecionado em tempo de execução, sem que o cliente precise conhecer os detalhes da implementação específica. O padrão Strategy promove a separação de responsabilidades, o reuso de código e a flexibilidade.
+A ideia básica por trás do padrão Strategy é criar uma interface comum que define um conjunto de métodos relacionados aos algoritmos. Em seguida, diferentes classes podem implementar essa interface, fornecendo implementações específicas para cada algoritmo. O cliente que utiliza o padrão Strategy pode selecionar dinamicamente a estratégia desejada em tempo de execução.
